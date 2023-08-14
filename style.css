@@ -1,0 +1,58 @@
+.effect {
+    font-size: 30px;
+    color: azure;
+    display: inline-flex;
+}
+h3 {
+    font-size: 20px;
+    color: rgb(181, 231, 17);
+}
+.name{
+    color: red;
+}
+.string{
+    color: chartreuse;
+}
+.exclame{
+    color: saddlebrown;
+}
+.hacker{
+    color: aqua;
+}
+.kalachan{
+    color: blue;
+}
+.attacker{
+    color: cadetblue;
+}
+.warrior{
+    color: chartreuse;
+}
+.aws{
+    color: coral;
+}
+.cyber{
+    color: darkgoldenrod;
+}
+.last{
+    color: mediumslateblue;
+}
+.effect{
+    position: relative;
+}
+.effect::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 40px;
+    width: 400px;
+    background-color: black;
+    border-left: 2px solid red;
+    animation: typing 5s steps(30) infinite;
+}
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
